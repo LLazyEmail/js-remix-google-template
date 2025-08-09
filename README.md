@@ -3,6 +3,8 @@
 
 https://raw.githubusercontent.com/LLazyEmail/documentation/refs/heads/main/static/templates/google.html
 
+```code
+
 const HeaderStatic = () => {
   return `
 <table width="600" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 600px; margin: 0 auto;">
@@ -120,6 +122,9 @@ ${ProductDetailStatic()}
 ${ShippingPaymentStatic()}
 ${FooterStatic()}
 `;
+
+
+```
 console.log(fullEmailHTML);
 
 
